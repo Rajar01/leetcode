@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func FindCenter(edges [][]int) int {
 	al := map[int][]int{}
 
@@ -17,10 +15,4 @@ func FindCenter(edges [][]int) int {
 	}
 
 	return -1
-}
-
-func main() {
-	result := FindCenter([][]int{{1, 2}, {2, 3}, {4, 2}})
-
-	fmt.Println(result)
 }
